@@ -1,0 +1,374 @@
+body {
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343445;
+    background-color: #ffffff;
+}
+
+.rec {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    width: 99%;
+    margin-top: -50px;
+}
+
+.small-rec {
+    width: 300px;
+    flex-grow: 0;
+}
+
+.big-rec {
+    height: 550px;
+    background-color: #F6ECE3;
+    flex-grow: 1;
+
+}
+
+.small-text {
+    margin-top: 350px;
+    margin-left: 65%;
+    font-size: 18px;
+
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.s-line {
+    height: 0;
+    width: 100px;
+    border: 1px solid #B97835;
+    flex-grow: 0;
+}
+
+
+.l-line {
+    height: 0;
+    border: 1px solid #B97835;
+    flex-grow: 1;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #B97835;
+    flex-wrap: nowrap;
+}
+
+.bg1 {
+    object-fit: cover;
+    margin-left: -10px;
+    width: 400px;
+    height: 400px;
+    margin-top: 0;
+}
+
+.hero-sec {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+}
+
+.pics1 {
+    margin-left: 30px;
+    object-fit: cover;
+    height: 420px;
+    width: 500px;
+    margin-top: -480px;
+    /* position:relative;*/
+    transform: rotate(-4deg);
+    border-radius: 4px;
+}
+
+.main-t1,
+.main-t2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: normal;
+    color: #DED496;
+    padding: 18px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.main-t1 {
+    margin-top: -350px;
+    /*padding: 20px;*/
+}
+
+.main-t2 {
+    width: max-content;
+    position: relative;
+    margin-left: -20px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.text-sec2 {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.bg2 {
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.pics2 {
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sec3 {
+    background-color: #F6F3EC;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.box-sec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.heading3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sub-t {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #B97835;
+}
+.fun-1 {
+    background-color: #fff;
+    width: 500px;
+    line-height: 34px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    border-radius: 4px;
+    box-shadow:
+        0px 4px 3px 0px rgba(0, 0, 0, 0.10),
+        0px 10px 8px 0px rgba(0, 0, 0, 0.04);
+}
+
+.fun-2 {
+    background-color: #F6E8DF;
+    width: 500px;
+    line-height: 34px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    border-radius: 4px;
+    box-shadow:
+        0px 4px 3px 0px rgba(0, 0, 0, 0.10),
+        0px 10px 8px 0px rgba(0, 0, 0, 0.04);
+}
+
+span {
+    font-weight: bold;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sec4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.bg4 {
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+    position: absolute;
+
+}
+
+.pics4 {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 24px;
+
+}
+
+.lf-line,
+.sf-line {
+    border: 1px solid #B97835;
+    height: 0px;
+}
+
+.lf-line {
+    width: 1000px;
+    flex-grow: 0;
+}
+
+.sf-line {
+    flex-grow: 1;
+
+}
+
+.heading5 {
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+
+
+.menu-list {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url('images/delectable-crispy-breadcrumbs-bowl-tablecloth-marble-table.jpg')  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.transperent-bg{
+    background-color: rgba(0, 0, 0, 0.40);
+    padding-top: 10px;
+}
+.heading4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.head-number {
+    height: 80px;
+    width: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+.hover:hover{background: #F6E8DF}
+
+.head-meal,
+.head-rating {
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.number,
+.meal-name,
+.percentage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+.number {
+    width: 10px;
+}
+
+.meal-name,
+.percentage {
+    width: 100px;
+}
